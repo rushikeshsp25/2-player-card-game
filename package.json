@@ -1,0 +1,16 @@
+{
+  "name": "cardgame",
+  "version": "1.0.0",
+  "description": "A 2 player card game built using Node.js (Typescript)",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc && node build/index.js && rm -rf build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rushikesh Phalke",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.0",
+    "typescript": "^4.9.5"
+  }
+}
