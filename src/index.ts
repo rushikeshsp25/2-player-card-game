@@ -81,7 +81,7 @@ class Game {
             const player2Card = this.player2Deck.pop();
             if (player1Card && player2Card) {
                 this.findRoundWinner(player1Card, player2Card)
-                await sleep(2000); // sleep for 2 seconds
+                await sleep(1000); // sleep for 1 seconds
             }
         }
         this.findGameWinner();
