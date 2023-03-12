@@ -5,12 +5,16 @@
   "main": "index.js",
   "scripts": {
     "start": "npx tsc && node build/index.js && rm -rf build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Rushikesh Phalke",
   "license": "ISC",
   "devDependencies": {
+    "@jest/globals": "^29.5.0",
+    "@types/jest": "^29.4.0",
     "@types/node": "^18.15.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.0.5",
     "typescript": "^4.9.5"
   }
 }
